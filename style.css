@@ -175,14 +175,14 @@ body {
   background-repeat: no-repeat;
   background-position: center; */
   width: 100%;
-  height: 1700px;
+  height: 800px;
 }
 
 /* ini edit */
 .home .track {
   margin-top: 120px;
   /* background-color: pink; */
-  background-image: url("motor.png");
+  background-image: url("image/motor.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 780px;
@@ -198,10 +198,10 @@ body {
   /* orange area */
   /* background-color: orange; */
   font-size: 32px;
-  color: #606C5D;
+  color: #606c5d;
   font-weight: bold;
-  width : 680px;
-  height : 145px;
+  width: 680px;
+  height: 145px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -211,13 +211,13 @@ body {
   font-weight: bold;
 } */
 
-input[type=text] {
+input[type="text"] {
   width: 680px;
-  height : 93px;
+  height: 93px;
   border-radius: 8px;
-  border-color: #606C5D;
+  border-color: #606c5d;
   font-size: 32px;
-  color: #606C5D;
+  color: #606c5d;
   padding-left: 50px;
 }
 
@@ -227,9 +227,9 @@ input[type=text] {
 } */
 
 .track .button {
-  background-color: #F1C376;
+  background-color: #f1c376;
   font-weight: bold;
-  color: #606C5D;
+  color: #606c5d;
   font-size: 32px;
   width: 250px;
   height: 60px;
@@ -249,10 +249,9 @@ input[type=text] {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  
 }
 
-.subresi{
+.subresi {
   display: flex;
   /* flex-direction: row; */
   /* justify-content: space-evenly; */
@@ -263,16 +262,16 @@ input[type=text] {
 }
 
 .subresi .shipnow {
-  background-color: #606C5D;
-  width : 250px;
+  background-color: #606c5d;
+  width: 250px;
   height: 250px;
   text-align: center;
   /* flex-direction: row; */
   border-radius: 8px;
   border-style: solid;
-  border-color: #F7E6C4;
+  border-color: #f7e6c4;
   font-size: 30px;
-  color: #F7E6C4;
+  color: #f7e6c4;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -287,14 +286,14 @@ input[type=text] {
 
 .subresi .quote {
   background-color: white;
-  width : 250px;
+  width: 250px;
   height: 250px;
   /* flex-direction: row; */
   border-radius: 8px;
   border-style: solid;
-  border-color: #606C5D;
+  border-color: #606c5d;
   font-size: 30px;
-  color: #606C5D;
+  color: #606c5d;
 }
 
 .quote img {
@@ -304,17 +303,16 @@ input[type=text] {
   margin-right: auto;
 }
 
-
 .subresi .pricing {
   background-color: white;
-  width : 250px;
+  width: 250px;
   height: 250px;
   /* flex-direction: row; */
   border-radius: 8px;
   border-style: solid;
-  border-color: #606C5D;
+  border-color: #606c5d;
   font-size: 30px;
-  color : #606C5D;
+  color: #606c5d;
   /* display: block;
   margin-left: auto;
   margin-right: auto; */
@@ -328,11 +326,138 @@ input[type=text] {
   margin-top: 25px;
 }
 
-
 .subresi > div {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
+}
+
+/* main login */
+
+.main-login {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 0.7rem 5%;
+  padding-top: 4rem;
+}
+
+.main-login .main-login-content h1 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #606c5d;
+}
+
+.main-login .main-login-content hr {
+  width: 40%;
+  color: #606c5d;
+  margin-left: 2px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.main-login .main-login-content p {
+  font-size: 20px;
+  color: #606c5d;
+  margin-bottom: 2rem;
+}
+
+.main-login .main-login-content .btn {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.main-login .main-login-content .btn .btn-login {
+  font-size: 20px;
+  padding: 4px 16px;
+  background-color: #fff;
+  border: 2px solid #606c5d;
+  border-radius: 8px;
+  color: #606c5d;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.main-login .main-login-content .btn .btn-login:hover {
+  background-color: #606c5d;
+  color: #fff;
+}
+
+.main-login .main-login-content .btn .btn-signup {
+  font-size: 20px;
+  padding: 4px 16px;
+  background-color: #fff;
+  border: 2px solid #606c5d;
+  border-radius: 8px;
+  color: #606c5d;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.main-login .main-login-content .btn .btn-signup:hover {
+  background-color: #606c5d;
+  color: #fff;
+}
+
+.main-login .image-login {
+  padding-top: 2rem;
+}
+.main-login img {
+  max-width: 580px;
+  max-height: 380px;
+  border-radius: 8px;
+}
+
+/* our shipments */
+
+.our-ship {
+  margin-top: 7rem;
+  text-align: center;
+  padding: 0.7rem 5%;
+}
+
+.our-ship h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #606c5d;
+  padding-bottom: 4rem;
+}
+
+.our-ship .our-ship-text {
+  font-size: 20px;
+  padding-bottom: 6rem;
+}
+
+.our-ship-feather {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.our-ship-content .our-ship-menu #icon-ship {
+  font-size: 7rem;
+  color: #606c5d;
+  padding-bottom: 2rem;
+}
+
+.our-ship-content .our-ship-menu p {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.our-ship-content .our-ship-menu a i {
+  font-size: 2rem;
+  color: #000;
+  padding-top: 2rem;
+}
+
+.our-ship-content .our-ship-menu a i:hover {
+  color: #606c5d;
+  font-weight: 600;
 }
 
 /* Footer */
