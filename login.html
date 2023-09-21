@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamikirim</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <div class="nav-logo">
+        <a href="#" class="name-logo"
+          ><img src="Logo.png" class="logo" alt="" />Kami<span>Kirim</span>
+        </a>
+      </div>
+
+      <div class="nav-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <div class="navbar-nav">
+        <ul>
+          <li><a href="#About-Us">About Us</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Pricing">Pricing</a></li>
+          <li><a href="#Order">Order</a></li>
+          <li><a href="#Portal-Login">Portal Login</a></li>
+          <li>
+            <a href="#Language">Language</a>
+            <ul id="submenu">
+              <li><a href="">English</a></li>
+              <li><a href="">Indonesia</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Konten start -->
+    <section class="home" id="home">
+      <div class="login">
+        <div class="wrap">
+          <div class="input">
+            <div class="subwrapper">
+              <p>Welcome Back</p>
+              <div class="google">
+                <img src="google.png" alt="Google Button" />
+                <p>Log in with Google</p>
+              </div>
+              <div class="or">
+                <p>OR LOGIN WITH EMAIL</p>
+              </div>
+              <!-- input email form -->
+              <div class="email">
+                <label for="email-1">Email</label>
+                <input
+                  type="text"
+                  id="email-1"
+                  name="email-1"
+                  placeholder="Your Email"
+                />
+              </div>
+
+              <div class="password">
+                <label for="password-1">Password</label>
+                <input
+                  type="password"
+                  id="password-1"
+                  name="password-1"
+                  placeholder="Password"
+                />
+                <a href="#">Forget Password</a>
+              </div>
+
+              <div class="button">
+                <input type="submit" value="Log In" />
+              </div>
+
+              <div class="bottom">
+                <div class="a"><p>Dont have an account yet?</p></div>
+                <div class="b"><a href="sign-up.html">Sign Up</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="ilustration">
+            <img src="ilustration1.png" alt="Courir Ilustration" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Konten end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Head Office</h4>
+            <ul>
+              <li>PT Kamikirim Indonesia</li>
+              <li>Jalan RA. Kartini III, Bandung, Jawa Barat</li>
+              <li>Contact center: +628 1234 5678</li>
+              <li>Office:</li>
+              <li>Fax: 021-9876543</li>
+              <li>Email: kamikirimindonesia@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>About</h4>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Order</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="">KK Express</a></li>
+              <li><a href="">KK Logistics</a></li>
+              <li><a href="">KK international</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us On</h4>
+            <div class="social-media">
+              <a href=""><i data-feather="facebook"></i></a>
+              <a href=""><i data-feather="twitter"></i></a>
+              <a href=""><i data-feather="instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="container">2023 © KamiKirim. All rights reserved.</div>
+    </div>
+    <!-- footer end -->
+    <!-- Feather icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
