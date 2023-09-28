@@ -140,7 +140,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 780px;
-  width: 1048px;
+  width: 100%;
   height: 780px;
   /* line-height: 780px; */
   display: block;
