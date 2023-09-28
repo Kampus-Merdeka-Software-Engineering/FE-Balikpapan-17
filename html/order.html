@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamikirim</title>
+    <link rel="icon" href="../image/logo2.png" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- icon google -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link rel="stylesheet" href="../css/order.css" />
+    <script src="../javascript/about-us.js" defer></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <a href="../html/homepage.html" class="name-logo"
+          ><img src="../image/Logo.png" class="logo" alt="" />Kami<span
+            >Kirim</span
+          >
+        </a>
+      </div>
+
+      <div class="nav-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <div class="navbar-nav">
+        <ul>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="login.html">Portal Login</a></li>
+          <li>
+            <a href="#Language">Language</a>
+            <ul id="submenu">
+              <li><a href="">English</a></li>
+              <li><a href="">Indonesia</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="distance-order"></div>
+    <div class="services">
+      <h1>Order</h1>
+    </div>
+    <form method="POST" action="#">
+      <div>
+        <div class="container">
+          <div class="column">
+            <div class="form-group">
+              <label for="namaPengirim">Nama Pengirim:</label>
+              <input class="nama" type="text" id="namaPengirim" />
+            </div>
+
+            <div class="form-group">
+              <label for="alamatPengirim">Alamat Pengirim:</label>
+              <textarea
+                class="alamat"
+                type="text"
+                id="alamatPengirim"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="noTeleponPengirim">No. Telepon:</label>
+              <input class="telepon" type="text" id="noTeleponPengirim" />
+            </div>
+
+            <div>
+              <label for="berat" style="margin-right: 10px"
+                >Jumlah Berat:</label
+              >
+              <input
+                class="telepon"
+                type="number"
+                id="berat"
+                style="width: 40px; margin-bottom: 15px"
+              />
+              Kg
+            </div>
+
+            <div class="checkbox-group">
+              <label style="margin-right: 15px">Jenis Barang:</label>
+              <label class="checkbox-label">
+                <input type="checkbox" name="jenisBarang" value="segar" /> Segar
+              </label>
+
+              <label class="checkbox-label">
+                <input type="checkbox" name="jenisBarang" value="non-segar" />
+                Non-Segar
+              </label>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="form-group">
+              <label for="namaPenerima">Nama Penerima:</label>
+              <input class="nama" type="text" id="namaPenerima" />
+            </div>
+
+            <div class="form-group">
+              <label for="alamatPenerima">Alamat Penerima:</label>
+              <textarea
+                class="alamat"
+                type="text"
+                id="alamatPengirim"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="noTeleponPenerima">No. Telepon:</label>
+              <input class="telepon" type="text" id="noTeleponPenerima" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container2"
+        style="padding-left: 10px; justify-content: inherit"
+      >
+        <label for="keterangan" style="margin-right: 23px">Keterangan:</label>
+        <textarea class="keterangan" type="text" id="keterangan"></textarea>
+      </div>
+
+      <div class="centered-button">
+        <button class="order-button" type="submit">Order</button>
+      </div>
+    </form>
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container1">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Head Office</h4>
+            <ul>
+              <li>PT Kamikirim Indonesia</li>
+              <li>Jalan RA. Kartini III, Bandung, Jawa Barat</li>
+              <li>Contact center: +628 1234 5678</li>
+              <li>Office:</li>
+              <li>Fax: 021-9876543</li>
+              <li>Email: kamikirimindonesia@gmail.com</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>About</h4>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="faq/faq.html">FAQ</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Order</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="">KK Express</a></li>
+              <li><a href="">KK Logistics</a></li>
+              <li><a href="">KK international</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow Us On</h4>
+            <div class="social-media">
+              <a href=""><i data-feather="facebook"></i></a>
+              <a href=""><i data-feather="twitter"></i></a>
+              <a href=""><i data-feather="instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="container1">2023 © KamiKirim. All rights reserved.</div>
+    </div>
+    <!-- footer end -->
+    <!-- Feather icon -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
