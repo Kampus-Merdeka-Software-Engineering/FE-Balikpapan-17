@@ -235,14 +235,29 @@ select {
   width: 40rem;
 }
 
+/* dropdown ongkir */
+.mCon2 #dropdown {
+  width: 302px;
+  height: 42px;
+  background-color: white;
+  border : grey solid 1px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 2.5px #606c5d;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* button Cek Ongkir */
 .btn-submit {
   display: flex;
   justify-content: center;
 }
 
 .btn-submit button {
-  background-color: #606c5d;
-  color: #fff;
+  color: #FFFFFF;
+  background-color: #606C5D;
+  box-shadow: 5px 5px 2.5px #F7E6C4;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -251,11 +266,19 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 302px;
+  height: 38px;
+  border-radius: 12px;
+  font-size: 20px;
 }
 
+/* hover button check ongkir */
 button:hover {
-  background-color: #4f584c;
   transition: 0.3s ease;
+  background-color: #FFFFFF;
+  border: solid 3px #606C5D;
+  color : #606C5D;
+  box-shadow: 2.5px 2.5px 1px #606C5D;
 }
 
 .result {
