@@ -24,6 +24,7 @@ body {
   align-items: center;
   padding: 0.9rem 5%;
   background-color: #606c5d;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -92,12 +93,6 @@ body {
   transition: 0.2s linear;
 }
 
-.navbar .navbar-nav .faq {
-  display: block;
-  border-bottom: 3px solid #f1c376;
-  color: var(--secondary);
-}
-
 #submenu {
   display: none;
 }
@@ -112,7 +107,6 @@ body {
   padding: 15px 0;
   color: #f1c376;
 }
-
 #submenu a:hover {
   color: #f1c376;
 }
@@ -175,21 +169,24 @@ body {
   }
 }
 
-.nav-plus {
+/* content */
+.distance-pricing {
+  height: 8vw;
+  width: 100%;
+  display: absolute;
+}
+
+.pricing {
   display: flex;
-  margin: 0;
-  padding: 0.9rem 5%;
-  background-color: #f1c376;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4rem;
+  width: 100%;
+  height: 7vw;
+  background-color: var(--secondary);
+  font-weight: 800;
+  font-size: 1.5vw;
+  color: white;
 }
-
-.nav-plus h1 {
-  font-size: 30px;
-  color: #FFF;
-}
-
 .mainContent {
   display: block;
   align-items: center;
@@ -243,7 +240,7 @@ select {
   justify-content: center;
 }
 
-.btn-submit button{
+.btn-submit button {
   background-color: #606c5d;
   color: #fff;
   border: none;
@@ -254,7 +251,6 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 button:hover {
@@ -280,11 +276,14 @@ table {
   margin-bottom: 20px;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #ccc;
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: left;
 }
@@ -303,7 +302,7 @@ td {
   margin-top: 7rem;
 }
 
-.layanan-text h1{
+.layanan-text h1 {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -313,7 +312,7 @@ td {
   font-weight: 600;
 }
 
-.layanan-text p{
+.layanan-text p {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -430,7 +429,7 @@ ul {
 }
 
 .footer-col ul li a:hover {
-  color: #606c5d;
+  color: var(--primary);
   padding-left: 8px;
   transition: 0.4s;
 }
@@ -442,7 +441,7 @@ ul {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  background-color: #f7e6c4;
+  background-color: var(--bg);
   color: #000000;
   transition: all 0.5s ease;
 }
@@ -454,55 +453,4 @@ ul {
 .copyright {
   display: flex;
   background-color: #f7e6c4;
-}
-
-/* Media Query */
-
-/* Laptop */
-@media (max-width: 1366px) {
-  html {
-    font-size: 75%;
-  }
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-  html {
-    font-size: 62.5%;
-  }
-
-  #hamburger-menu {
-    display: inline-block;
-  }
-
-  .navbar .navbar-nav {
-    position: absolute;
-    top: 100%;
-    right: -100%;
-    background-color: var(--primary);
-    width: 30rem;
-    height: 100vh;
-    transition: 0.4s;
-  }
-
-  .navbar,
-  .navbar-nav.active {
-    right: 0;
-  }
-
-  .navbar .navbar-nav a {
-    display: block;
-    margin: 1rem 5rem;
-    padding: 0.5rem;
-    font-size: 2rem;
-  }
-
- 
-}
-
-/* Mobile Phone */
-@media (max-width: 450px) {
-  html {
-    font-size: 55%;
-  }
 }

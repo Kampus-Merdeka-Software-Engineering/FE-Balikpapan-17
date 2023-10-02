@@ -183,20 +183,25 @@ input[type="text"] {
 
 
 /* button */
-.track .button {
-  background-color: #f1c376;
-  font-weight: bold;
-  color: #606c5d;
-  font-size: 32px;
-  width: 250px;
-  height: 60px;
-  margin-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
+input[type="submit"] {
+  width: 180px;
+  height: 52px;
+  background-color: #fff;
+  color: var(--primary);
+  font-size: 20px;
+  margin: 8px 0;
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  cursor: pointer;
+  /* display: flex;
+  align-items: center; */
 }
 
+input[type="submit"]:hover {
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+}
 /* button baru */
 .resi a {
   background-color: #f1c376;
@@ -349,46 +354,6 @@ input[type="text"] {
   margin-bottom: 2rem;
 }
 
-.main-login .main-login-content .btn {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.main-login .main-login-content .btn .btn-login {
-  font-size: 20px;
-  padding: 4px 16px;
-  background-color: #fff;
-  border: 2px solid #606c5d;
-  border-radius: 8px;
-  color: #606c5d;
-  font-weight: 400;
-  cursor: pointer;
-}
-
-.main-login .main-login-content .btn .btn-login:hover {
-  background-color: #606c5d;
-  color: #fff;
-}
-
-.main-login .main-login-content .btn .btn-signup {
-  font-size: 20px;
-  padding: 4px 16px;
-  background-color: #fff;
-  border: 2px solid #606c5d;
-  border-radius: 8px;
-  color: #606c5d;
-  font-weight: 400;
-  cursor: pointer;
-}
-
-.main-login .main-login-content .btn .btn-signup:hover {
-  background-color: #606c5d;
-  color: #fff;
-}
-
-.main-login .image-login {
-  padding-top: 2rem;
-}
 .main-login img {
   max-width: 580px;
   max-height: 380px;
@@ -521,7 +486,7 @@ input[type="text"] {
 
 .carousel .card {
   scroll-snap-align: start;
-  height: 225px;
+  height: 201px;
   /* width: 400px; */
   list-style: none;
   background: #fff;
@@ -533,7 +498,7 @@ input[type="text"] {
 
 .card .img img {
   display: flex;
-  height: 190px;
+  height: 200px;
   width: 125px;
   object-fit: cover;
   border-radius: 8px 8px 8px 8px;
@@ -543,6 +508,7 @@ input[type="text"] {
 .card .img {
   display: flex;
   align-items: center;
+  padding-top: 15px;
 }
 
 .name-rating {
