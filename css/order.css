@@ -206,8 +206,16 @@ body {
   font-size: 24px;
 }
 
-.form-group [type=text] {
+.form-group [type=text]{
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
 
+.form-group textarea {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 
