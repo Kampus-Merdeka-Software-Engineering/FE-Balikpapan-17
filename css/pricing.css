@@ -361,9 +361,15 @@ td {
 .layanan1 {
   border: 1.5px solid #606c5d;
   border-radius: 8px;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   margin: 3rem;
   display: flex;
+  align-items: center;
+}
+
+.layanan1 .sss .choice {
+  display: flex;
+  align-items: center;
 }
 
 .layanan1:hover {
@@ -382,9 +388,14 @@ td {
 .layanan2 {
   border: 1.5px solid #606c5d;
   border-radius: 8px;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   margin: 3rem;
   display: flex;
+}
+
+.layanan2 .sss .choice {
+  display: flex;
+  align-items: center;
 }
 
 .layanan2:hover {
