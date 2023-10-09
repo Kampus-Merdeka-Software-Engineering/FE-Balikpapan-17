@@ -65,10 +65,10 @@ async function fetchResiByNoResi() {
 // fetchResi();
 
 // pop up
-window.addEventListener("click", function () {
-  document.querySelector("#popup1").style.display = "block";
+document.addEventListener("click", function () {
+  document.querySelector("#popup").style.display = "block";
 });
 
 document.querySelector(".close").addEventListener("click", function () {
-  document.querySelector("#popup1").style.display = "none";
+  document.querySelector("#popup").style.display = "none";
 });
