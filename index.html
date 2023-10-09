@@ -75,8 +75,30 @@
               <label for="resicheck">Track Your Shipment</label><br>
               <input type="text" id="resicheck" name="resicheck"  placeholder="Enter your tracking number...">
               <!-- <input type="button" class="button" value="Track"> -->
-              <a href="#" onclick="fetchResiByNoResi()">Track</a>
-              <div id="resi-details"></div>
+              <!-- <div class="box">
+                <a class="button" href="#popup1">Let me Pop up</a>
+              </div> -->
+              <div class="box">
+              <a href="#popup1" onclick="fetchResiByNoResi()">Track</a>
+            </div>
+            <!-- <div id="popup1" class="overlay">
+              <div class="popup">
+                <h2>Here i am</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                  Thank to pop me out of that button, but now i'm done so you can close this window.
+                </div>
+              </div>
+            </div> -->
+            <div class="popup1" class="overlay">
+              <div class="popup">
+                <a class="close" href="#resi">&times;</a>
+                <div class="content">
+                  <h2>Your Shipment</h2>
+                  <div id="resi-details"></div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="subresi">
             <div class="shipnow">
