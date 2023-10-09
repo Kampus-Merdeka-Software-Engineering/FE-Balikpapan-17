@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001"
+const API_URL = "http://localhost:3001";
 
 // toggle class active
 const navbarNav = document.querySelector(".navbar-nav");
@@ -17,7 +17,6 @@ document.addEventListener("click", function (e) {
 const carousel = document.querySelector(".carousel");
 const arrowBtns = document.querySelectorAll(".wrapper i");
 const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-
 
 let isDragging = false,
   startX,
@@ -48,38 +47,28 @@ const dragStop = () => {
   carousel.classList.remove("dragging");
 };
 
-
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
 
 async function fetchResiByNoResi() {
-  const resiId = document.getElementById('resicheck').value;
+  const resiId = document.getElementById("resicheck").value;
   try {
-      const response = await fetch(`${API_URL}/resi/${resiId}`);
-      const Resi = await response.json();
-      const resiDetails = document.getElementById('resi-details');
-      resiDetails.innerHTML = `Nomor Resi Anda: ${Resi.resi}<br>Berat Paket: ${Resi.berat}<br>
-      Nama Pengirim: ${Resi.namapengirim}<br>Alamat Pengirim: ${Resi.alamatpengirim}<br>No.Telp Pengirim: ${Resi.telp_pengirim}<br>
-      Nama Penerima: ${Resi.namapenerima}<br>Alamat Penerima: ${Resi.alamatpenerima}<br>No.Telp Penerima: ${Resi.telp_penerima}`;
-      
+    const response = await fetch(`${API_URL}/resi/${resiId}`);
+    const Resi = await response.json();
+    const resiDetails = document.getElementById("resi-details");
+    resiDetails.innerHTML = `Nomor Resi: ${Resi.resi}<br> Pengirim: ${Resi.namapengirim} <br> Penerima: ${Resi.namapenerima}<br> Status: ${Resi.status}`;
   } catch (error) {
-      console.error('Error fetching resi:', error);
+    console.error("Error fetching resi:", error);
   }
 }
 // fetchResi();
 
 // pop up
-window.addEventListener("click", function(){ 
-  setTimeout(
-      function open(event){
-          document.querySelector(".popup1").style.display = "block";
-      },
-      2000 
-  )
+window.addEventListener("click", function () {
+  document.querySelector("#popup1").style.display = "block";
 });
 
-
-document.querySelector(".close").addEventListener("click", function(){
-  document.querySelector(".popup1").style.display = "none";
+document.querySelector(".close").addEventListener("click", function () {
+  document.querySelector("#popup1").style.display = "none";
 });

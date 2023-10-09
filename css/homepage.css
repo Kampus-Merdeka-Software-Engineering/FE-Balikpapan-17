@@ -165,7 +165,7 @@ body {
   font-weight: bold;
 } */
 
- /* resi's */
+/* resi's */
 input[type="text"] {
   width: 680px;
   height: 93px;
@@ -176,11 +176,10 @@ input[type="text"] {
   padding-left: 50px;
 }
 
-.resi input[type=text]:focus {
-  background-color: #606C5D;
-  color: #F7E6C4;
+.resi input[type="text"]:focus {
+  background-color: #606c5d;
+  color: #f7e6c4;
 }
-
 
 /* button */
 input[type="submit"] {
@@ -288,7 +287,7 @@ h1 {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 100%;
+  width: 60%;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -300,7 +299,7 @@ h1 {
 }
 
 .popup .close {
-  width:50px;
+  width: 50px;
   height: 50px;
   position: absolute;
   top: 20px;
@@ -312,7 +311,7 @@ h1 {
   color: #333;
 }
 
-.popup .close:hover {
+#popup .popup .close:hover {
   color: #f1c376;
 }
 
@@ -321,11 +320,11 @@ h1 {
   overflow: auto;
 }
 
-@media screen and (max-width: 700px){
-  .box{
+@media screen and (max-width: 700px) {
+  .box {
     width: 70%;
   }
-  .popup{
+  .popup {
     width: 70%;
   }
 }
@@ -567,7 +566,7 @@ h1 {
   scrollbar-width: 0;
 }
 
-.carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar {
   display: none;
 }
 
@@ -575,12 +574,12 @@ h1 {
   display: flex;
 }
 
-.carousel.dragging{
+.carousel.dragging {
   scroll-snap-type: none;
   scroll-behavior: auto;
 }
 
-.carousel.dragging .card{
+.carousel.dragging .card {
   cursor: grab;
   user-select: none;
 }
@@ -640,7 +639,7 @@ h1 {
 }
 
 .question-1 h2 {
-  color: #606C5D;
+  color: #606c5d;
   font-size: 40px;
 }
 
@@ -657,7 +656,7 @@ h1 {
 .sub-question1 {
   width: 420px;
   height: 250px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -672,14 +671,14 @@ h1 {
 }
 
 .sub-question1 a:hover {
-  color: #606C5D;
-  text-shadow: 4px 4px 8px #F7E6C4;
+  color: #606c5d;
+  text-shadow: 4px 4px 8px #f7e6c4;
 }
 
 .sub-question2 {
   width: 420px;
   height: 250px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -694,20 +693,20 @@ h1 {
 }
 
 .sub-question2 a:hover {
-  color: #606C5D;
-  text-shadow: 4px 4px 8px #F7E6C4;
+  color: #606c5d;
+  text-shadow: 4px 4px 8px #f7e6c4;
 }
 
 .sub-question3 {
   width: 420px;
   height: 250px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
   border-radius: 8px;
-    /* margin-top: 10px; */
+  /* margin-top: 10px; */
 }
 
 .sub-question3 a {
@@ -717,8 +716,8 @@ h1 {
 }
 
 .sub-question3 a:hover {
-  color: #606C5D;
-  text-shadow: 4px 4px 8px #F7E6C4;
+  color: #606c5d;
+  text-shadow: 4px 4px 8px #f7e6c4;
 }
 
 .question-wrap .question-3 {
@@ -735,20 +734,20 @@ h1 {
   height: 58px;
   margin-top: 75px;
   border-radius: 8px;
-  background-color: #FFFFFF;
-  border: solid 3px #606C5D;
-  color : #606C5D;
+  background-color: #ffffff;
+  border: solid 3px #606c5d;
+  color: #606c5d;
   font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.question-3 a:hover{
-  color: #FFFFFF;
-  background-color: #606C5D;
-  text-shadow: 4px 4px 8px #F7E6C4;
-  box-shadow: 10px 10px 5px #F7E6C4;
+.question-3 a:hover {
+  color: #ffffff;
+  background-color: #606c5d;
+  text-shadow: 4px 4px 8px #f7e6c4;
+  box-shadow: 10px 10px 5px #f7e6c4;
 }
 
 .needhelp {
@@ -767,7 +766,7 @@ h1 {
 }
 
 .needhelp .needhelp-1 h2 {
-  color: #606C5D;
+  color: #606c5d;
   font-size: 40px;
 }
 
@@ -784,14 +783,14 @@ h1 {
 .complaint {
   width: 640px;
   height: 322px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
   border-radius: 8px;
-    /* margin-top: 10px; */
-    padding: 40px;
+  /* margin-top: 10px; */
+  padding: 40px;
 }
 
 .complaint img {
@@ -807,13 +806,13 @@ h1 {
 .claim {
   width: 640px;
   height: 322px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column;
   border-radius: 8px;
-    /* margin-top: 10px; */
+  /* margin-top: 10px; */
   padding: 40px;
 }
 
@@ -838,7 +837,6 @@ h1 {
     grid-auto-columns: 100%;
   }
 }
-
 
 /* Footer */
 .footer {
@@ -962,7 +960,7 @@ ul {
 
 /* Mobile Phone */
 @media only screen and (max-width: 260px) {
-    .navbar {
+  .navbar {
     font-size: 20px;
   }
   .logo {
