@@ -239,10 +239,8 @@ input[type="submit"]:hover {
   font-family: Arial, sans-serif;
 }
 
-.box h1 {
+h1 {
   text-align: center;
-  font-family: Tahoma, Arial, sans-serif;
-  color: #06D85F;
   margin: 80px 0;
 }
 
@@ -267,8 +265,6 @@ input[type="submit"]:hover {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
-/* .button:hover {
-  /* background: #06D85F; */
 
 .overlay {
   position: fixed;
@@ -281,13 +277,13 @@ input[type="submit"]:hover {
   visibility: hidden;
   opacity: 0;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
 }
 
 .popup {
-  background-color: red;
   margin: 70px auto;
   padding: 20px;
   background: #fff;
@@ -302,6 +298,7 @@ input[type="submit"]:hover {
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   width:50px;
   height: 50px;
@@ -314,17 +311,14 @@ input[type="submit"]:hover {
   text-decoration: none;
   color: #333;
 }
+
 .popup .close:hover {
   color: #f1c376;
 }
 
 .popup .content {
-  max-height: 20%;
+  max-height: 30%;
   overflow: auto;
-}
-
-.popup1 {
-  border-color: #606C5D;
 }
 
 @media screen and (max-width: 700px){
