@@ -235,6 +235,10 @@ input[type="submit"]:hover {
 
 } */
 
+#popup {
+  display: none;
+}
+
 .box {
   font-family: Arial, sans-serif;
 }
@@ -265,6 +269,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
+
 
 .overlay {
   position: fixed;
