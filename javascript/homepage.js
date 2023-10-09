@@ -67,5 +67,19 @@ async function fetchResiByNoResi() {
       console.error('Error fetching resi:', error);
   }
 }
-
 // fetchResi();
+
+// pop up
+window.addEventListener("click", function(){ 
+  setTimeout(
+      function open(event){
+          document.querySelector(".popup1").style.display = "block";
+      },
+      2000 
+  )
+});
+
+
+document.querySelector(".close").addEventListener("click", function(){
+  document.querySelector(".popup1").style.display = "none";
+});
