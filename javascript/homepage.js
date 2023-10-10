@@ -1,4 +1,4 @@
-const API_URL = "https://fair-rose-bear-hose.cyclic.app/resi";
+const API_URL = "https://fair-rose-bear-hose.cyclic.app";
 
 // toggle class active
 const navbarNav = document.querySelector(".navbar-nav");

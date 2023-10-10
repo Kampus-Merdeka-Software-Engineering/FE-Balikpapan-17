@@ -41,7 +41,7 @@ async function addNewOrder() {
   const berat = document.getElementById("order-berat").value;
   const keterangan = document.getElementById("order-keterangan").value;
   try {
-    const response = await fetch(`${API_BASE_URL}/orderr`, {
+    const response = await fetch(`${API_URL}/orderr`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
